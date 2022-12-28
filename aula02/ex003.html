@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(202, 202, 81);
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        height: 100%;
+        padding: 230px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+      }
+      .child {
+        width: 450px;
+        height: 450px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+      }
+      h1 {
+        text-align: center;
+        padding: 154px 30px;
+        font-size: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child">
+        <h1>JavaScript</h1>
+      </div>
+    </div>
+
+    <script>
+       var n1 = Number.parseFloat(window.prompt('Digite um numero'))
+       var n2 = Number.parseFloat(window.prompt('Digite outro numero'))
+       var s = n1 + n2
+       window.alert('O resultado da soma é: ' + s)
+    </script>
+  </body>
+</html>
