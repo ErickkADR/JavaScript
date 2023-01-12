@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time of the day</title>
+    <title>Age of the person</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Times of the day</h1>
+        <h1>Age of the person</h1>
     </header>
     <section>
         <div>
-            SALVE
+            <p>Ano de nascimento
+                <input type="number" name="txtano" id="txtano" min="1900">
+            </p>
+            <p>Sexo
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar">
+            </p>
         </div>
-        <div>
-            GURILADA DO YOUTUBE
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!!!</p>
         </div>
     </section>
     <footer>
