@@ -5,7 +5,7 @@
   margin: 0;
 }
 body {
-  background-color: lightblue;
+  background-color: #06070A;
   font: normal 15px Arial;
   padding: 100px;
 }
@@ -44,7 +44,27 @@ section {
 div {
   padding: 10px;
 }
+p#vel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 5px;
 
+}
+img {
+  width: 300px;
+  border-radius: 50%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#res {
+  font-size: 20px;
+}
 footer {
   color: white;
   text-align: center;

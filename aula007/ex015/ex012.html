@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age of the person</title>
+    <title>AGE OF THE PERSON</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Age of the person</h1>
+        <h1>Age of the Person</h1>
     </header>
     <section>
         <div>
-            <p>Ano de nascimento
+            <p>Year of birth
+
                 <input type="number" name="txtano" id="txtano" min="1900">
             </p>
-            <p>Sexo
+            <p>Gender:
                 <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">Masculino</label>
+                <label for="mas">Male</label>
                 <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
+                <label for="fem">Female</label>
             </p>
-            <p>
-                <input type="button" value="Verificar">
+            <p id="vel">
+                <input type="button" value="Check" onclick="verificar()">
             </p>
         </div>
         <div id="res">
-            <p>Preencha os dados acima para ver o resultado!!!</p>
+            <p>Fill in the information above to see the result!!!</p>
         </div>
     </section>
     <footer>
