@@ -9,6 +9,9 @@ header {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+select {
+  width: 150px;
+}
 section {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
